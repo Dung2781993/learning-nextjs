@@ -13,42 +13,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to my Elearning site
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <h1 className={styles.title}>News Feed</h1>
 
         <div className={styles.grid}>
-          <Link href="/learn/next">
+          <Link href="/news/">
             <a className={styles.card}>
-              <h2>Learn NextJS &rarr;</h2>
+              <h2>Top Stories &rarr;</h2>
+              <p>Read articles currently on the homepage</p>
             </a>
           </Link>
-
-          <Link href="/learn/react">
-            <a href="https://nextjs.org/learn" className={styles.card}>
-              <h2>Learn React &rarr;</h2>
-            </a>
-          </Link>
-
-          <Link href="/learn/angular">
-            <a className={styles.card}>
-              <h2>Learn Angular &rarr;</h2>
-            </a>
-          </Link>
-
-
-          <Link href="/learn/vue">
-            <a className={styles.card}>
-              <h2>Learn Vue &rarr;</h2>
-            </a>
-          </Link>
-
-         
         </div>
       </main>
 
